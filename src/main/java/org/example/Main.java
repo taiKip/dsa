@@ -10,6 +10,7 @@ public class Main {
 int [] newArr = {5,2,4};
 
         System.out.println(Arrays.toString(ArrayOps.twoSum(newArr,6)));
+        System.out.println("Hello world");
     }
 
 }
