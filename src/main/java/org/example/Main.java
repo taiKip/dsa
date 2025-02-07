@@ -6,7 +6,16 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-       int a= 5;
+
+        HashMap<String,Integer> empIds = new HashMap<>();
+        empIds.put("John",12345);
+        empIds.put("Carl",54321);
+
+        System.out.println(empIds.get("John"));
+        System.out.println(empIds.containsKey("Carl"));
+
+        System.out.println(empIds);
+       int a= 3;
        int b = 7;
        swap(a,b );
     }
